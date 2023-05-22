@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LinkedList"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/ipatil1/CLionProjects/LinkedList"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ApplicationX">
+				<Option output="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/ApplicationX" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ipatil1/CLionProjects/LinkedList"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 ApplicationX"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ApplicationX/fast">
+				<Option output="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/ApplicationX" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ipatil1/CLionProjects/LinkedList"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 ApplicationX/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/ipatil1/CLionProjects/LinkedList"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/ipatil1/CLionProjects/LinkedList"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/mnt/c/Users/ipatil1/CLionProjects/LinkedList/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/inc/Common.h">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/inc/Doubly.h">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/inc/ILinkedList.h">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/inc/ListFactory.h">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/inc/Singly.h">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/inc/SinglyLLNode.h">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/src/Doubly.cpp">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/src/ListFactory.cpp">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/src/Singly.cpp">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/src/main.cpp">
+			<Option target="ApplicationX"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ipatil1/CLionProjects/LinkedList/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

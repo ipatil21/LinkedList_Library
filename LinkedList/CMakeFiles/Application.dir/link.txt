@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Application.dir/src/Singly.cpp.o CMakeFiles/Application.dir/src/Doubly.cpp.o CMakeFiles/Application.dir/src/List.cpp.o CMakeFiles/Application.dir/src/main.cpp.o -o Application 
