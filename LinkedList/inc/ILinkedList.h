@@ -76,5 +76,11 @@ public:
     /// @return
     virtual SinglyLLNode* ConcatAtPosition(SinglyLLNode* pSecond, int iPos) = 0;
 
-    /** Reverse Functions **/
+    /// @brief
+    /// @return
+    virtual void ReverseDisplay() = 0;
+
+    /// @brief
+    /// @return
+    virtual SinglyLLNode* ReversePhysical() = 0;
 };

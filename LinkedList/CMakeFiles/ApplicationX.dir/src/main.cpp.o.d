@@ -1,5 +1,5 @@
 CMakeFiles/ApplicationX.dir/src/main.cpp.o: \
- /mnt/c/Users/ipatil1/CLionProjects/LinkedList/src/main.cpp \
+ /mnt/c/Users/ipatil1/CLionProjects/LinkedList_Library/LinkedList/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -144,7 +144,7 @@ CMakeFiles/ApplicationX.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/Users/ipatil1/CLionProjects/LinkedList/src/../inc/ILinkedList.h \
- /mnt/c/Users/ipatil1/CLionProjects/LinkedList/src/../inc/../inc/SinglyLLNode.h \
- /mnt/c/Users/ipatil1/CLionProjects/LinkedList/src/../inc/ListFactory.h \
- /mnt/c/Users/ipatil1/CLionProjects/LinkedList/src/../inc/../inc/common.h
+ /mnt/c/Users/ipatil1/CLionProjects/LinkedList_Library/LinkedList/src/../inc/ILinkedList.h \
+ /mnt/c/Users/ipatil1/CLionProjects/LinkedList_Library/LinkedList/src/../inc/../inc/SinglyLLNode.h \
+ /mnt/c/Users/ipatil1/CLionProjects/LinkedList_Library/LinkedList/src/../inc/ListFactory.h \
+ /mnt/c/Users/ipatil1/CLionProjects/LinkedList_Library/LinkedList/src/../inc/../inc/common.h

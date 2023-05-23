@@ -96,6 +96,84 @@ void DeleteAll_TC(ILinkedList* pListHandle)
 }
 
 /// @brief
+/// @param pListHandle
+void DeleteAtFirst_TC(ILinkedList* pListHandle)
+{
+    {
+        /// DeleteAtFirst() : Tested Scenario 1) If list is empty
+        pListHandle->DeleteAll();
+        pListHandle->DeleteAtFirst();
+        LOG_DEBUG("Debug: CountNodes() after DeleteAll()", pListHandle->CountNodes());
+        LOG_DEBUG("Debug: IsListEmpty() after DeleteAll()", pListHandle->IsListEmpty());
+        LOG_DEBUG("Debug: IsListEmpty() before DisplayListData()", pListHandle->DisplayListData());
+        pListHandle->DisplayListData();
+    }
+
+    {
+        /// DeleteAtFirst() : Tested Scenario 2) If list is non empty
+        pListHandle->DeleteAll();
+        pListHandle->InsertAtFirst(20);
+        pListHandle->InsertAtFirst(30);
+        pListHandle->InsertAtLast(40);
+        pListHandle->DeleteAtFirst();
+        LOG_DEBUG("Debug: CountNodes() after DeleteAll()", pListHandle->CountNodes());
+        LOG_DEBUG("Debug: IsListEmpty() after DeleteAll()", pListHandle->IsListEmpty());
+        LOG_DEBUG("Debug: IsListEmpty() before DisplayListData()", pListHandle->DisplayListData());
+        pListHandle->DisplayListData();
+    }
+}
+
+/// @brief
+/// @param pListHandle
+void DeleteAtLast_TC(ILinkedList* pListHandle)
+{
+    {
+        /// DeleteAtLast() : Tested Scenario 1) If list is empty
+        pListHandle->DeleteAll();
+        pListHandle->DeleteAtLast();
+        LOG_DEBUG("Debug: CountNodes() after DeleteAll()", pListHandle->CountNodes());
+        LOG_DEBUG("Debug: IsListEmpty() after DeleteAll()", pListHandle->IsListEmpty());
+        LOG_DEBUG("Debug: IsListEmpty() before DisplayListData()", pListHandle->DisplayListData());
+        pListHandle->DisplayListData();
+    }
+
+    {
+        /// DeleteAtLast() : Tested Scenario 2) If list is non empty
+        pListHandle->DeleteAll();
+        pListHandle->InsertAtFirst(20);
+        pListHandle->InsertAtFirst(30);
+        pListHandle->InsertAtLast(40);
+        pListHandle->DeleteAtLast();
+        LOG_DEBUG("Debug: CountNodes() after DeleteAtLast()", pListHandle->CountNodes());
+        LOG_DEBUG("Debug: IsListEmpty() after DeleteAtLast()", pListHandle->IsListEmpty());
+        LOG_DEBUG("Debug: DisplayListData() after DeleteAtLast()", pListHandle->DisplayListData());
+    }
+}
+
+/// @brief
+/// @param pListHandle
+void DeleteAtPosition_TC(ILinkedList* pListHandle)
+{
+
+}
+
+/// @brief
+/// @param pListHandle
+void ConcatList_TC(ILinkedList* pListHandle)
+{
+}
+
+void ReverseDisplay_TC(ILinkedList* pListHandle)
+{
+    pListHandle->DeleteAll();
+    pListHandle->InsertAtLast(40);
+    pListHandle->InsertAtLast(50);
+    pListHandle->InsertAtLast(60);
+    LOG_DEBUG("", pListHandle->DisplayListData());
+    pListHandle->ReverseDisplay();
+}
+
+/// @brief
 /// @return
 int main()
 {
@@ -109,7 +187,10 @@ int main()
         // InsertAtFirst_TC(pListHandle);
         // InsertAtLast_TC(pListHandle);
         // InsertAtPosition_TC(pListHandle);
-        DeleteAll_TC(pListHandle);
+        // DeleteAll_TC(pListHandle);
+        // DeleteAtFirst_TC(pListHandle);
+        // DeleteAtLast_TC(pListHandle);
+        ReverseDisplay_TC(pListHandle);
     }
 
     return 0;

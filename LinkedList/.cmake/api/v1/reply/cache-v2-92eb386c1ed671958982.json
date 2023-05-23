@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/ipatil1/CLionProjects/LinkedList"
+			"value" : "/mnt/c/Users/ipatil1/CLionProjects/LinkedList_Library/LinkedList"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -595,7 +595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/ipatil1/CLionProjects/LinkedList"
+			"value" : "/mnt/c/Users/ipatil1/CLionProjects/LinkedList_Library/LinkedList"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/ipatil1/CLionProjects/LinkedList"
+			"value" : "/mnt/c/Users/ipatil1/CLionProjects/LinkedList_Library/LinkedList"
 		},
 		{
 			"name" : "LinkedList_IS_TOP_LEVEL",
@@ -1155,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/ipatil1/CLionProjects/LinkedList"
+			"value" : "/mnt/c/Users/ipatil1/CLionProjects/LinkedList_Library/LinkedList"
 		}
 	],
 	"kind" : "cache",

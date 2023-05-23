@@ -193,12 +193,16 @@ bool Singly::DeleteAll()
 {
     LOG_INFO();
     SinglyLLNode* pItr = m_pFirst;
+    LOG_DEBUG("m_iNodeCount", m_iNodeCount);
+    LOG_DEBUG("CountNodes()", CountNodes());
     while (NULL != m_pFirst)
     {
        m_pFirst = m_pFirst->m_pNext;
        delete pItr;
        pItr = m_pFirst;
        DecrementNodeCount();
+       LOG_DEBUG("m_iNodeCount", m_iNodeCount);
+       LOG_DEBUG("CountNodes()", CountNodes());
     }
     return (0 == CountNodes() == m_iNodeCount);
 }
@@ -394,4 +398,30 @@ bool Singly::DecrementNodeCount()
         m_iNodeCount = m_iNodeCount - 1;
     }
     return bRetValue;
+}
+
+///
+void Singly::ReverseDisplay()
+{
+    ReversePhysical();
+    LOG_DEBUG("", DisplayListData());
+    ReversePhysical();
+}
+
+SinglyLLNode* Singly::ReversePhysical()
+{
+    SinglyLLNode* pCurr = m_pFirst;
+    SinglyLLNode* pPrev = m_pFirst;
+    SinglyLLNode* pNext = m_pFirst;
+
+    while (nullptr != pCurr)
+    {
+        pNext = pCurr->m_pNext;
+        pCurr->m_pNext = pPrev;
+        pPrev = pCurr;
+        pCurr = pNext;
+    }
+
+    m_pFirst->m_pNext = nullptr;
+    m_pFirst = pPrev;
 }
