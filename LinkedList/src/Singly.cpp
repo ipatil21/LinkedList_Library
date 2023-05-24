@@ -1,9 +1,16 @@
+/// @brief
 #include "../inc/Common.h"
+
+/// @brief
 #include "../inc/Singly.h"
+
+/// @brief
 #include <iostream>
 
+/// @brief
 using namespace std;
 
+/// @brief
 Singly::Singly()
 {
     LOG_INFO();
@@ -160,6 +167,11 @@ bool Singly::DeleteAtLast()
     return DecrementNodeCount();
 }
 
+/// Test Scenario 1 - Invalid Position
+///                     1.1 If iPos < 1
+///                     1.2 If iPos
+/// Test Scenario 2 - After calling this function DisplayListData() function shall print nothing
+/// Test Scenario 3 - After calling this function CountNodes() function shall return zero
 bool Singly::DeleteAtPosition(int iPos)
 {
     LOG_INFO();
@@ -400,7 +412,8 @@ bool Singly::DecrementNodeCount()
     return bRetValue;
 }
 
-///
+/// displays data by physically reversing it
+/// after displaying data again doing physically reverse
 void Singly::ReverseDisplay()
 {
     ReversePhysical();
